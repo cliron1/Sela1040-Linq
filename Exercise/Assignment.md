@@ -4,13 +4,19 @@
 1.	Write extensions class with methods that make this code work:
 
 `double d = "3.14".ToDouble(); // d should be: 3.14`
+
 `bool b = "Something".HasValue(); // b should be True`
+
 `bool b2 = "   ".HasValue(); // b should be False`
+
 `var nums = new List<int>{1,2,3,4,5};`
+
 `bool b3 = 4.IsIn(list); // b3 should be True`
+
 `bool b4 = 88.IsIn(list); // b3 should be False`
 
 Advanced (optional):
+
 `string json = new {ID=1, Name="Moshe"}.ToJson(); // json should be {"ID":1,"Name":"Moshe"}`
 
 ---
